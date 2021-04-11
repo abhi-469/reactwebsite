@@ -26,7 +26,7 @@ const LoginForm = ({ Login,error }) => {
                         className="form-control"
                         name="email"
                             id="email"
-                            placeholder="email is a@1"
+                            placeholder="email: eve.holt@reqres.in"
                         onChange={e => setDetails({ ...details, email: e.target.value })}
                         value={details.email} />
                         
@@ -38,7 +38,7 @@ const LoginForm = ({ Login,error }) => {
                     <input type="text" name="password"
                         id="password"
                             className="form-control"
-                            placeholder=" password is 123"
+                            placeholder=" password: cityslicka"
                         onChange={e => setDetails({ ...details, password: e.target.value })}
                         value={details.password} /><br/>
                         
