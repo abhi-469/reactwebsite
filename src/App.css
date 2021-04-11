@@ -1,0 +1,43 @@
+.form {
+  background: skyblue;
+  margin: 100px;
+  padding: 33px;
+  width: 336px;
+  margin-left: 32rem;
+}
+
+.add {
+  margin-left: 72rem;
+  margin-top: 20px;
+  background: red;
+  color: white;
+  border: 2px solid red;
+}
+
+h1 {}
+
+.add-user {
+    text-align: center;
+    color: red;
+    background: blue;
+}
+
+input.form-control {}
+
+.search {
+    margin: 30px;
+    padding: 50px;
+}
+
+a.btn.btn-primary {
+    margin-left: 51rem;
+}
+
+.error {
+  background: lightgreen;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  padding-top: 7px;
+  height: 40px;
+}
